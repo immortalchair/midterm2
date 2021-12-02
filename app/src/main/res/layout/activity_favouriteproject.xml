@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Favouriteproject">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:contentDescription="@string/back_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:id="@+id/favorite_product"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/favorite_product"
+            android:textSize="@dimen/bigsize"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="165dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="133dp"
+                android:src="@drawable/image_product__4_"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/Product"
+                android:contentDescription="@string/product_image"/>
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="36dp"
+                android:text="@string/nike_air_max_270_ract_eng"
+                android:textSize="@dimen/mediumsize"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"/>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="12dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="16dp">
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s01tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s01tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s01tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s01tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s05tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="22dp"
+                android:text="@string/_299_43"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="@dimen/mediumsize"/>
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="17dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="16dp">
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_534_33"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+                <TextView
+                    android:layout_width="51dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_24_off"
+                    android:textColor="@color/pinkred"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+                <ImageView
+                    android:layout_width="13.5dp"
+                    android:layout_height="14.63dp"
+                    android:src="@drawable/ic_baseline_delete_24"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="165dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="133dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/image_product__1_"
+                android:contentDescription="@string/product_image"/>
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/nike_air_max_270_ract_eng"
+                android:textStyle="bold"
+                android:textSize="@dimen/mediumsize"/>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s05tar"
+                    android:contentDescription="@string/star"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/_299_43"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/mediumsize"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_534_33"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+
+                <TextView
+                    android:layout_width="51dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_24_off"
+                    android:textColor="@color/pinkred"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+
+                <ImageView
+                    android:layout_width="13.5dp"
+                    android:layout_height="14.63dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_delete_24" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>\
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="165dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="133dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/image_product__3_"
+                android:contentDescription="@string/product_image"/>
+
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/nike_air_max_270_ract_eng"
+                android:textStyle="bold"
+                android:textSize="@dimen/mediumsize"/>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s05tar" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/_299_43"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/mediumsize"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_534_33"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+
+                <TextView
+                    android:layout_width="51dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_24_off"
+                    android:textColor="@color/pinkred"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+
+                <ImageView
+                    android:layout_width="13.5dp"
+                    android:layout_height="14.63dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_delete_24" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="165dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="133dp"
+                android:src="@drawable/image_product__2_"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:contentDescription="@string/product_image"/>
+            <TextView
+                android:layout_width="133dp"
+                android:layout_height="36dp"
+                android:text="@string/nike_air_max_270_ract_eng"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="@dimen/mediumsize"/>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="12dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="1dp"
+                    android:src="@drawable/s01tar"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s01tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s01tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s01tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/s05tar"
+                    android:layout_marginLeft="1dp"
+                    android:contentDescription="@string/star"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="52dp"
+                android:layout_height="22dp"
+                android:text="@string/_299_43"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textSize="@dimen/mediumsize"/>
+            <LinearLayout
+                android:layout_width="110dp"
+                android:layout_height="17dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="16dp">
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_534_33"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+                <TextView
+                    android:layout_width="51dp"
+                    android:layout_height="15dp"
+                    android:text="@string/_24_off"
+                    android:textColor="@color/pinkred"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/mediumsize"/>
+                <ImageView
+                    android:layout_width="13.5dp"
+                    android:layout_height="14.63dp"
+                    android:src="@drawable/ic_baseline_delete_24"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Midterm 2</string>
+    <string name="nike_air_max_270_ract_eng">Nike Air Max 270 Ract ENG</string>
+    <string name="_299_43">$299,43</string>
+    <string name="_24_off">24% off</string>
+    <string name="_534_33">$534,33</string>
+    <string name="favorite_product">favorite product</string>
+    <string name="back_button">back button</string>
+    <string name="product_image">Product Image</string>
+    <string name="star">star</string>
+</resources>
